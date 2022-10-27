@@ -1,0 +1,35 @@
+* {
+    font-family: fantasy;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.counter_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_1 {
+    background-color: #077BFE;
+    color: #D7B246;
+    border: 1px solid #D7B246;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+}
+
+.btn_2 {
+    background-color: #DB3545;
+    color: #638497;
+    border: 1px solid #638497;
+    margin-left: 10px;
+    height: 30px;
+    width: 50px;
+}

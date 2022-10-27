@@ -1,0 +1,35 @@
+
+
+body {
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    padding-top: 10px;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr td {
+    height: 50px;
+    width: 50px;
+}
+
+.color_1 {
+    background-color: black;
+}
+
+.color_2 {
+    background-color: red;
+}

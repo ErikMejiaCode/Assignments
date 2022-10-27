@@ -1,0 +1,72 @@
+#existing Class - BankAccount
+class BankAccount:
+
+    account_balance = 0
+    # don't forget to add some default values for these parameters!
+    def __init__(self, int_rate, balance=0): 
+        self.int_rate = int_rate
+        self.balance = balance
+        # your code here! (remember, instance attributes go here)
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"You have deposited an amount of ${amount}, your total account reflects a balance of ${self.balance}")
+        return self
+
+    def withdraw(self, amount):
+        if self.balance > amount:
+            self.balance -= amount
+            print(f"You have withdrawn ${amount} from your account. Your remaining balance is ${self.balance}.")
+            return self
+        else:
+            self.balance -= 5
+            print(f"Insufficient funds: Charging a $5 fee. Your balance is now ${self.balance}")
+            return self
+
+    def display_account_info(self):
+        print(f"Your account balance is ${self.balance}")
+        return self
+
+    def yield_interest(self):
+        self.int_rate = self.balance * self.int_rate
+        self.balance = self.balance + self.int_rate
+        print(f"Your interest amount is ${self.int_rate}. Adding that to your account, your balance becomes ${self.balance}.")
+        return self
+
+
+#added Class -User
+class User:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.account = BankAccount(int_rate=0.02, balance=0)
+
+        def make_deposit(self, amount):
+            self.account.deposit()
+            return self
+
+        def make_withdrawal(self, amount):
+            self.account.withdraw()
+            return self 
+
+        def display_user_balance(self):
+            self.account.display_account_info()
+            return self 
+
+        def transfer_money(self, amount, other_user):
+            pass
+
+
+user1 = User("Erik Mejia", "erikcodingdojo@email.com")
+user2 = User("Tony Stark", "birdcompany@email.com")
+user3 = User("Elvis Presley", "lasvegas@email.com")
+
+user1.account.deposit(200)
+user1.account.withdraw(500)
+print("------------------")
+user2.account.deposit(500)
+user2.account.withdraw(200)
+user2.account.display_account_info()
+print("------------------")
+user3.account.deposit(1000)
+user3.account.yield_interest()

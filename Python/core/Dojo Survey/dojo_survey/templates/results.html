@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <form action='/'>
+        <h1>{{ dojos.name }}</h1>
+        <p>Dojo Location: {{ dojos.location }}</p>
+        <p>Favorite Language: {{ dojos.language }}</p>
+        <p>Comments: {{ dojos.comment }}</p>
+        <button class="home_btn" >Home</button>
+    </form>
+</body>
+</html>
