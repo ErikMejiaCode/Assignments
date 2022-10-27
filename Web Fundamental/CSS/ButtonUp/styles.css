@@ -1,0 +1,45 @@
+.search {
+    color: #00D1B2;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    border-color: #00D1B2;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background-color: #00D1B2;
+    color: white;
+    display: block;
+    border-radius: 50%;
+    border: none;
+    margin-top: 17px;
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.create {
+    color: White;
+    font-size: 15px;
+    background-color: dodgerblue;
+    text-align: center;
+    display: block;
+    margin-top: 17px;
+    margin-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px black;
+}

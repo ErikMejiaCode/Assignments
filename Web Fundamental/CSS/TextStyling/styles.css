@@ -1,0 +1,26 @@
+.detail {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.name {
+    font-family: sans-serif;
+    color: lightskyblue;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    background-color: lightblue;
+    color: darkblue;
+    text-align: right;
+    text-decoration: underline;
+}

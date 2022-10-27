@@ -1,0 +1,40 @@
+* {
+    background-color: #ECF0F8;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+img.octocat {
+    height: 200px;
+    margin: 15px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.marvel {
+    display: flex;
+    justify-content: center;
+    background-color: #5DCAD2;
+    justify-content: space-evenly;
+}
+
+.tv {
+    display: flex;
+    justify-content: center;
+    background-color: #D8B1C7;
+    justify-content: space-evenly;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    background-color: #FCFCFF;
+    justify-content: space-evenly;
+}

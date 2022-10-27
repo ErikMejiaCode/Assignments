@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header-content">
+            <h1>Dojonary</h1>
+            <input class="search" type="text" name="Search" placeholder="Search">
+            <button onclick="logOut(this)" class="login">Login</button>
+            <!-- <input onclick="logOut(this)" class="login" type="button" value="Login"> -->
+        </div>
+
+        <div class="large-container">
+            <div class="smaller-container">
+                <div class="container-1">
+                    <div class="box-1">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h3>Plural: ninjas</h3>
+                        <input onclick="alert('Ninja was liked!')" class="btn-1" type="button" value="13 likes">
+                    </div>
+                    <p>A practitioner skilled in the <br>
+                        <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                    </p>
+                </div>
+
+                <div class="container-2">
+                    <div class="box-2">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h3>Plural: ninjas</h3>
+                        <input class="btn-1" type="button" value="37 likes">
+                    </div>
+                    <p>a <a href="">programmer</a>who breaks <br>
+                        down problems with <a href="">zen</a>-like <br>
+                        focus</p>
+                </div>
+            </div>
+
+            <div class="section-2">
+                <div class="container-3">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <input onclick="hide(this)" class="definition" type="button" value="Add Definition">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

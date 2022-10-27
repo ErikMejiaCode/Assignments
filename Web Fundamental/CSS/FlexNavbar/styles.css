@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto';
+    font-weight: lighter;
+}
+
+.nav {
+    background-color: #333333;
+    display: flex;
+    font-family: Roboto; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type: none;
+}
+
+.btn {
+    background-color: #17A2B8;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+.nav-title {
+    margin-left: 20px;
+    color: white;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
