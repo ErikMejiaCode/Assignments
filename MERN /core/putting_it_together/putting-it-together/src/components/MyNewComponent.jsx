@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './MyNewComponent.css';
+import classes from './MyNewComponent.module.css';
 
 class PersonComponent extends Component {
 
@@ -24,12 +24,12 @@ class PersonComponent extends Component {
     render(){
         return(
             <div className={classes.card}>
-                <fieldset>
+                <div className={classes.content}>
                     <h1>{this.props.firstName}, {this.props.lastName}</h1>
                     <p>Age: {this.state.age}</p>
                     <p>Hair Color:{this.props.hairColor}</p>
                     <button onClick={() => this.increaseAge()}>Birthday Button for {this.props.firstName}</button>
-                </fieldset>
+                </div>
             </div>
         )
     }
