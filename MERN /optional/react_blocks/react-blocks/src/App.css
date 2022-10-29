@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  padding: .5rem;
+  background-color: #dddddd;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
