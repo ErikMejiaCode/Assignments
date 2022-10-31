@@ -39,6 +39,10 @@ const NewFormComponent = props => {
                                     firstNameErrors : ""
                                 })
                             }
+                            setFormData({
+                                ...formData,
+                                [e.target.name]:e.target.value
+                            })
                         }}/>
                         <p>{formDataErrors.firstNameErrors}</p>
                     </div>
@@ -56,6 +60,10 @@ const NewFormComponent = props => {
                                     lastNameErrors : ""
                                 })
                             }
+                            setFormData({
+                                ...formData,
+                                [e.target.name]:e.target.value
+                            })
                         }}/>
                         <p>{formDataErrors.lastNameErrors}</p>
                     </div>
@@ -72,7 +80,11 @@ const NewFormComponent = props => {
                                         ...formDataErrors,
                                         emailErrors : ""
                                     })
-                                }    
+                                }
+                            setFormData({
+                                ...formData,
+                                [e.target.name]:e.target.value
+                            })
                         }}/>
                         <p>{formDataErrors.emailErrors}</p>
                     </div>
@@ -91,6 +103,10 @@ const NewFormComponent = props => {
                                     passwordErrors : ""
                                 })
                             }
+                            setFormData({
+                                ...formData,
+                                [e.target.name]:e.target.value
+                            })
                         }}/>
                         <p>{formDataErrors.passwordErrors}</p>
                     </div>
@@ -109,6 +125,10 @@ const NewFormComponent = props => {
                                     confirmPasswordErrors : ""
                                 })
                             }
+                            setFormData({
+                                ...formData,
+                                [e.target.name]:e.target.value
+                            })
                         }}/>
                     </div>
                     <p>{formDataErrors.confirmPasswordErrors}</p>
