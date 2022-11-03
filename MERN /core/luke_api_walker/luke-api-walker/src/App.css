@@ -1,0 +1,30 @@
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  margin-left: 10px;
+  height: 30px;
+  width: 10%;
+}
+
+select {
+  height: 35px;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button {
+  height: 35px;
+  width: 20%;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #0119F8;
+  color: white;
+}
+
+div {
+  text-align: center;
+}
