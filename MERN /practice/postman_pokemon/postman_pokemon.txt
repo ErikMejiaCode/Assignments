@@ -1,0 +1,9 @@
+https://pokeapi.co/api/v2/pokemon/mewtwo
+
+https://pokeapi.co/api/v2/pokemon/dragonite
+
+https://pokeapi.co/api/v2/pokemon/rayquaza
+
+https://pokeapi.co/api/v2/pokemon/lugia
+
+https://pokeapi.co/api/v2/pokemon/ho-oh
