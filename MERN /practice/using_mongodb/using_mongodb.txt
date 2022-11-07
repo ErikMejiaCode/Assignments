@@ -1,0 +1,65 @@
+
+
+
+
+Create a database called 'my_first_db'.
+--use my_first_db
+
+Create students collection.
+--db.createCollection("students")
+
+Each document you insert into this collection should have the following format: ({name: STRING, home_state: STRING, lucky_number: NUMBER, birthday: {month: NUMBER, day: NUMBER, year: NUMBER}})
+
+Create 5 students with the appropriate info.
+--my_first_db> db.students.insertOne({name: "Erik", home_state: "California", lucky_number: 2, birthday: {month: 2, day: 24, year: 1994}})
+
+Get all students.
+--my_first_db> db.students.find()
+
+Retrieve all students who are from California (San Jose Dojo) or Washington (Seattle Dojo).
+--my_first_db> db.students.find({home_state: "California"})
+
+Get all students whose lucky number is greater than 3
+--my_first_db> db.students.find({lucky_number: {$gt: 3}})
+
+Get all students whose lucky number is less than or equal to 10
+--my_first_db> db.students.find({lucky_number: {$lte: 10}})
+
+Get all students whose lucky number is between 1 and 9 (inclusive)
+--my_first_db> db.students.find({lucky_number: {$in: [1,2, 3, 4, 5, 6, 7, 8,  9]}})
+
+Add a field to each student collection called 'interests' that is an ARRAY. It should contain the following entries: 'coding', 'brunch', 'MongoDB'. Do this in ONE operation.
+--my_first_db> db.students.updateMany({}, {$set: {interests: ["coding", "brunch", "MongoDB"]}})
+
+Add some unique interests for each particular student into each of their interest arrays.
+--my_first_db> db.students.updateOne({name: "Erik"}, {$push: {interests: "gaming"}})
+
+Add the interest 'taxes' into someone's interest array.
+--my_first_db> db.students.updateOne({name: "Sito"}, {$push: {interests: "taxes"}})
+
+Remove the 'taxes' interest you just added.
+--my_first_db> db.students.updateOne({name: "Sito"}, {$pull: {interests: "taxes"}})
+
+Remove all students who are from California.
+--my_first_db> db.students.deleteMany({home_state: "California"})
+
+Remove a student by name.
+--my_first_db> db.students.deleteOne({name: "Frank"})
+
+Remove a student whose lucky number is greater than 5 (JUST ONE)
+--my_first_db> db.students.deleteOne({lucky_number: {$gt: 5}}, true)
+
+Add a field to each student collection called 'number_of_belts' and set it to 0.
+--my_first_db> db.students.updateMany({}, {$set: {number_of_black_belts: 0 }})
+
+Increment this field by 1 for all students in Washington (Seattle Dojo).
+--my_first_db> db.students.updateMany({home_state: "Washington"}, {$set: {number_of_black_belts: 1}})
+
+Rename the 'number_of_belts' field to 'belts_earned'
+--my_first_db> db.students.updateMany({}, {$rename: {"number_of_black_belts": "belts_earned"}})
+
+Remove the 'lucky_number' field.
+--my_first_db> db.students.updateMany({}, {$unset: {lucky_number: ""}})
+
+Add a 'updated_on' field, and set the value as the current date.
+--
