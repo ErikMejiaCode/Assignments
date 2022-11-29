@@ -43,15 +43,10 @@ System.Console.WriteLine(iceCream.Count);
 //User Dictionaries
 Dictionary<string, string> newDictionary = new Dictionary<string, string>();
 Random random = new Random();
-string randomIceCream = iceCream[random.Next(namesArray.Length)];
-string randomIceCream1 = iceCream[random.Next(namesArray.Length)];
-string randomIceCream2 = iceCream[random.Next(namesArray.Length)];
-string randomIceCream3 = iceCream[random.Next(namesArray.Length)];
-
-newDictionary.Add(namesArray[0], randomIceCream);
-newDictionary.Add(namesArray[1], randomIceCream1);
-newDictionary.Add(namesArray[2], randomIceCream2);
-newDictionary.Add(namesArray[3], randomIceCream3);
+newDictionary.Add(namesArray[0], iceCream[random.Next(0, iceCream.Count)]);
+newDictionary.Add(namesArray[1], iceCream[random.Next(0, iceCream.Count)]);
+newDictionary.Add(namesArray[2], iceCream[random.Next(0, iceCream.Count)]);
+newDictionary.Add(namesArray[3], iceCream[random.Next(0, iceCream.Count)]);
 
 foreach (KeyValuePair<string, string> entries in newDictionary)
     {
