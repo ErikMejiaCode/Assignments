@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/DebuggingPractice
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/DebuggingPractice.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/DebuggingPractice.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/DebuggingPractice.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/ref/DebuggingPractice.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/bin/Debug/net6.0/DebuggingPractice.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/ref/DebuggingPractice.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DebuggingPractice/obj/Debug/net6.0/DebuggingPractice.genruntimeconfig.cache
