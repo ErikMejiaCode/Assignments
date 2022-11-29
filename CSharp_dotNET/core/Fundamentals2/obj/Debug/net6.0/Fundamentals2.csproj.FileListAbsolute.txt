@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/Fundamentals2
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/Fundamentals2.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/Fundamentals2.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/Fundamentals2.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/ref/Fundamentals2.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/bin/Debug/net6.0/Fundamentals2.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/ref/Fundamentals2.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/Fundamentals2/obj/Debug/net6.0/Fundamentals2.genruntimeconfig.cache
