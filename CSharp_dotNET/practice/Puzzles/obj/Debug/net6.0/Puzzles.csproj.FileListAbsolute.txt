@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/Puzzles
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/Puzzles.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/Puzzles.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/Puzzles.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/ref/Puzzles.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/bin/Debug/net6.0/Puzzles.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/ref/Puzzles.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Puzzles/obj/Debug/net6.0/Puzzles.genruntimeconfig.cache
