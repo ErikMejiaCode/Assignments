@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/ref/GameDeveloper1.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/ref/GameDeveloper1.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/core/GameDeveloper1/obj/Debug/net6.0/GameDeveloper1.genruntimeconfig.cache
