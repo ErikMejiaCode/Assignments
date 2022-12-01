@@ -25,6 +25,3 @@ scooter.Travel(10);
 // Print the information of the vehicle to verify the distance traveled went up
 car.ShowInfo();
 scooter.ShowInfo();
-
-// Bonus: it is best to make DistanceTraveled be private so it can only be edited using the 
-//Travel method, which prevents unwanted changes.
