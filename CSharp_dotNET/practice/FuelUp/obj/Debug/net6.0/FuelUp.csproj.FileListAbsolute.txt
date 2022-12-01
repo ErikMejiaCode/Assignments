@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/FuelUp
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/FuelUp.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/FuelUp.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/FuelUp.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/ref/FuelUp.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/bin/Debug/net6.0/FuelUp.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/ref/FuelUp.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/FuelUp/obj/Debug/net6.0/FuelUp.genruntimeconfig.cache
