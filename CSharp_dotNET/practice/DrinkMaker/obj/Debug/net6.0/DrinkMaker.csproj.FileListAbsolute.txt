@@ -1,0 +1,15 @@
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/DrinkMaker
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/DrinkMaker.deps.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/DrinkMaker.runtimeconfig.json
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/DrinkMaker.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/ref/DrinkMaker.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/bin/Debug/net6.0/DrinkMaker.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.csproj.AssemblyReference.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.AssemblyInfoInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.AssemblyInfo.cs
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.csproj.CoreCompileInputs.cache
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/ref/DrinkMaker.dll
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.pdb
+/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/DrinkMaker/obj/Debug/net6.0/DrinkMaker.genruntimeconfig.cache
