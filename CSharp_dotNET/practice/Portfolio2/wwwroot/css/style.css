@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+
+/* Home Page */
+.nav {
+    text-align: center;
+    margin-top: 1em;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+img {
+    width: 200px;
+    margin-right: 1em;
+    padding: .5rem;
+
+}
+
+.content {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    text-align: center;
+}
+
+.bio {
+    margin-bottom: 3em;
+}
+
+/* My Projects */
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.project {
+    display: flex;
+}
+
+/* Contact */
+label {
+    vertical-align: top;
+}
+
+button {
+    width: 75px;
+    background-color: dodgerblue;
+    color: white;
+    align-items: center;
+}
+
+form {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    text-align: center;
+    padding-top: 1rem;
+}
+
