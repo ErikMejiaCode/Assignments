@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "iXFjPA4MYhCGXiXmbw39h+3t3jfh09dBHgWH/gCp+ig=",
+  "Source": "Countdown",
+  "BasePath": "_content/Countdown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Countdown/wwwroot",
+      "Source": "Countdown",
+      "ContentRoot": "/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Countdown/wwwroot/",
+      "BasePath": "_content/Countdown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Countdown/wwwroot/css/style.css",
+      "SourceId": "Countdown",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/erikmejia/Desktop/CodingDojo/Assignments/CSharp_dotNET/practice/Countdown/wwwroot/",
+      "BasePath": "_content/Countdown",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    }
+  ]
+}
