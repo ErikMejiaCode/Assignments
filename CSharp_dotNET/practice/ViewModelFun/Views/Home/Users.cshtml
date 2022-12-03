@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Users ViewModel";
+}
+@model List<User>
+<div class="text-center">
+    <h1>Here is a List of Users</h1>
+    @foreach (User item in Model)
+    {
+        <p>@item.FirstName @item.LastName</p>
+    }
+</div>
