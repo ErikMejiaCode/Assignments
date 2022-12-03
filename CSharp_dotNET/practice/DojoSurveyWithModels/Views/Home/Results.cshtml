@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Results";
+}
+<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/style.css">
+
+@model User
+<div class="text-center">
+    <div class="container">
+        <h2>Submitted Info</h2>
+        <p>Name:  @Model.Name</p>
+        <p>Dojo Location: @Model.Location</p>
+        <p>Favorite Language: @Model.Language</p>
+        <p>Comment: @Model.Comment</p>
+        <a class="pulse" href="/">Home</a>
+    </div>
+</div>

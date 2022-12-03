@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+  background: hsl(227, 10%, 10%);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background: hsl(227, 10%, 10%);
+  color: white;
+}
+
+body {
+  margin-bottom: 60px;
+  background: hsl(227, 10%, 10%);
+  color: white;
+}
+
+footer {
+  height: 100px;
+}
+
+nav {
+  background: hsl(227, 10%, 10%);
+  color: white;
+}
+
+a {
+  color: blanchedalmond;
+}
+
+.nav-link {
+  color: blanchedalmond;
+}

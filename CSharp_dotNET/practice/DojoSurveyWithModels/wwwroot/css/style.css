@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+body {
+    color: blanchedalmond;
+    background: hsl(227, 10%, 10%);
+    font: 300 1em 'Fira Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+form {
+    text-align: left;
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment_section {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1rem;
+    background-color: blanchedalmond;
+}
+
+select {
+    margin-bottom: 1rem;
+    background-color: blanchedalmond;
+}
+
+.button_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.pulse {
+    width: 75px;
+    float: right;
+    margin-top: .5rem;
+    font: inherit;
+    background-color:hsl(227, 10%, 10%);
+    color:White;
+}
+
+.pulse:hover{
+    background-color:blanchedalmond;
+    color: black;
+    box-shadow: 2px 2px black;
+}
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+textarea {
+    background-color: blanchedalmond;
+}
