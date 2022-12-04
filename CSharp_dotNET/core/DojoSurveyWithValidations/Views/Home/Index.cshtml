@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/style.css">
+
+@model User
+
+<div class="text-center">
+    <h1>Home page</h1>
+    <form asp-action="Results" asp-controller="Home" method="post">
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Location">Dojo Location</label>
+            <select asp-for="Location">
+                <option value="San Diego">San Diego</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Burbank">Burbank</option>
+                <option value="Online">Online</option>
+            </select>
+            <span class="text-danger" asp-validation-for="Location"></span>
+        </div>
+        <div>
+            <label asp-for="Language">Favorite Language</label>
+            <select asp-for="Language">
+                <option value="Javascript">Javascript</option>
+                <option value="MERN">MERN</option>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="Web Dev">Web Dev</option>
+            </select>
+            <span class="text-danger" asp-validation-for="Language"></span>
+        </div>
+        <div class="comment_section">
+            <label class="comment_lable" asp-for="Comment">Comment (optional)</label>
+            <textarea asp-for="Comment" cols="40" rows="5"></textarea>
+            <span class="text-danger" asp-validation-for="Comment"></span>
+        </div>
+        <div class="button_container">
+        <button class="pulse">Submit</button>
+        </div>
+    </form>
+</div>
