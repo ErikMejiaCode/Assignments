@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Date
+
+<div class="text-center">
+    <h3>Welcome</h3>
+    <p>Please select a date in the past. No future dates.</p>
+    <form asp-action="Process" asp-controller="Home" method="post">
+        <label asp-for="DateValidation">Date</label>
+        <input asp-for="DateValidation"> <br>
+        <span class="text-danger" asp-validation-for="DateValidation"></span> <br>
+        <input type="submit" value="Validate" class="btn btn-sm btn-info mt-2">
+    </form>
+</div>
