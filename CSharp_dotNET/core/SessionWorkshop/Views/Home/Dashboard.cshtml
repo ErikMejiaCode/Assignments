@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<link rel="stylesheet" href="~/css/style.css">
+
+<nav>
+    <h3>Welcome @Context.Session.GetString("Username")!</h3>
+    <form action="/logout" method="post">
+    <input type="submit" value="Logout" class="btn btn-danger btn-sm">
+    </form>
+</nav>
+
+<div class="text-center">
+    <div class="main_number">
+        <h1>@Context.Session.GetInt32("Number")</h1>
+    </div>
+    <div class="body_container">
+        <form action="/plusone" method="post">
+            <input class="plusOne" type="submit" value="+ 1">
+        </form>
+        <form action="/minusone" method="post">
+            <input class="minusOne" type="submit" value="- 1">
+        </form>
+        <form action="/timestwo" method="post">
+            <input class="timesTwo" type="submit" value="x 2">
+        </form>
+        <form action="/randomone" method="post">
+            <input class="randomOne" type="submit" value="+ Random">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/style.css">
+
+@model User
+
+<div class="text-center">
+    <h1 class="display-4 mt-5">Welcome!</h1>
+    <form action="/login" method="post">
+        <label for="">Please give your name:</label> <br>
+        <input class="mt-2" type="text" name="Name"> <br>
+        <span class="text-danger" asp-validation-for="Name"></span> <br>
+        <input class="btn btn-info btn-sm mt-3" type="submit" value="Login">
+    </form>
+</div>
