@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/style.css">
+
+@model User
+
+<div class="text-center">
+    <h1>Enter your information</h1>
+    <form asp-action="Results" asp-controller="Home" method="post">
+        <div>
+            <label asp-for="Name">Name:</label>
+            <input class="form-control" asp-for="Name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Email">Email Address:</label>
+            <input class="form-control" asp-for="Email">
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label asp-for="DateOfBirth">Date of Birth:</label>
+            <input class="form-control" asp-for="DateOfBirth">
+            <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+        </div>
+        <div class="password">
+            <label class="password" asp-for="Password">Password:</label>
+            <input class="form-control" asp-for="Password"> 
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <div>
+            <label asp-for="OddNumber">Favorite Odd/Prime Number:</label>
+            <input class="form-control" asp-for="OddNumber">
+            <span class="text-danger" asp-validation-for="OddNumber"></span>
+        </div>
+        <div class="button_container">
+            <button class="pulse">Submit</button>
+        </div>
+    </form>
+</div>
