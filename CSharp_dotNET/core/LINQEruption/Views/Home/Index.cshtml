@@ -1,0 +1,217 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">LINQ Eruption</h1>
+
+    <h6 class="border-bottom">First eruption in Chile</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.FirstChiliEruption.Volcano</td>
+            <td>@ViewBag.FirstChiliEruption.Year</td>
+            <td>@ViewBag.FirstChiliEruption.Location</td>
+            <td>@ViewBag.FirstChiliEruption.ElevationInMeters</td>
+            <td>@ViewBag.FirstChiliEruption.Type</td>
+        </tr>
+    </table> <br>
+
+    <h6 class="border-bottom">First eruption in Hawaiian Is</h6>
+    <p>@ViewBag.FirstHawaiianEruption.Volcano</p>
+    <p>@ViewBag.FirstHawaiianEruption.Year</p>
+    <p>@ViewBag.FirstHawaiianEruption.Location</p>
+    <p>@ViewBag.FirstHawaiianEruption.ElevationInMeters</p>
+    <p>@ViewBag.FirstHawaiianEruption.Type</p>
+
+    <h6 class="border-bottom">First eruption in Greenland Is</h6>
+    <p>@ViewBag.FirstGreenlandEruption</p>
+
+    <h6 class="border-bottom">First eruption in New Zeland after 1900</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.FirstNewZealandEruption.Volcano</td>
+            <td>@ViewBag.FirstNewZealandEruption.Year</td>
+            <td>@ViewBag.FirstNewZealandEruption.Location</td>
+            <td>@ViewBag.FirstNewZealandEruption.ElevationInMeters</td>
+            <td>@ViewBag.FirstNewZealandEruption.Type</td>
+        </tr>
+    </table> <br>
+
+    <h6 class="border-bottom">Elevation over 2000m</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.ElevationOver2000)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table> <br>
+
+    <h6 class="border-bottom">Volcanos that start with "L"</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.LNames)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table>
+    <p>Number of Eruptions found: @ViewBag.Count</p>
+    <br>
+
+    <h6>Highest elevation is: @ViewBag.Highest meters</h6> <br>
+
+    <h6 class="border-bottom">Volcano based on elevation</h6>
+    <p>@ViewBag.HighestVol.Volcano</p>
+
+    <h6 class="border-bottom">Volcano names ordered Alphabetically by Volcano</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.OrderByAlpha)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table>
+    <br>
+
+    <h6 class="border-bottom">The sum of all Elevations is: @ViewBag.Total</h6>
+
+    <h6 class="border-bottom">Volcanos Erupted in year 2000</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.Volcano2000)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table>
+    <br>
+
+    <h6 class="border-bottom">First 3 Volcanos with Type Stratovolcano</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.StratoVolcanoes)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table>
+    <br>
+
+    <h6 class="border-bottom">Eruptions before year 1000, sorted Alphabetically</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>ElevationInMeters</th>
+            <th>Type</th>
+        </tr>
+        @foreach (Eruption item in ViewBag.BeforeYear1000)
+        {
+            <tr>
+                <td>@item.Volcano</td>
+                <td>@item.Year</td>
+                <td>@item.Location</td>
+                <td>@item.ElevationInMeters</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+    </table>
+    <br>
+
+    <h6 class="border-bottom">Eruptions before year 1000, sorted Alphabetically, only Vol Names</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+        </tr>
+        @foreach (string item in ViewBag.NameOnly)
+        {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+    </table>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+</div>
