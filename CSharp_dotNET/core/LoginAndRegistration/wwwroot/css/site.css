@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #659DBD;
+}
+
+nav {
+  background-color: #8D8741;
+}
+
+nav a{
+  color: white;
+}
+
+.container p {
+  color: white;
+}
+
+.container-footer {
+  background-color: #8D8741;
+}
