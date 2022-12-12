@@ -1,0 +1,14 @@
+@model List<Category>
+
+@* Partial being brought into "Category" to render all categories. *@
+@* List of AllCategories with data was filled/brought in through the controller *@
+
+<div>
+    @foreach (Category c in Model)
+    {
+        @* Had issued with this. List of categories houses the Category ID needed for this path *@
+        <a href="/categories/@c.CategoryId">
+            <h5>@c.Name</h5>
+        </a>
+    }
+</div>

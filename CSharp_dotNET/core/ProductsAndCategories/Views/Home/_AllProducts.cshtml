@@ -1,0 +1,15 @@
+@model List<Product>
+
+@* Partial being brought into "Index" to render all products. *@
+@* List of AllProducts with data was filled/brought in through the controller *@
+
+<h2 class="border-bottom">All Products</h2>
+        <div>
+            @foreach (Product p in Model)
+            {
+                @* Had issued with this. List of products houses the Product ID needed for this path *@
+                <a href="/products/@p.ProductId">
+                    <h5>@p.Name</h5>
+                </a>
+            }
+        </div>

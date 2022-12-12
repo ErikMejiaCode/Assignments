@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+textarea {
+    vertical-align: middle;
+}
+
+.btn:hover{
+  box-shadow: 2px 2px 2px black;
+}
+
+h5 {
+  text-align: left;
+}

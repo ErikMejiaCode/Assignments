@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "One Product Page";
+}
+
+@model MyViewModel
+
+@* One partial being used. To handle the form being used to add a Category to a product. *@
+@* My View Model used to bring in Categoris attached to the product being viewed  *@
+@* My Model also used on the partial to include list of categories and remove selections from the 
+options as they are being chosen. *@
+
+<h2 class="text-center">@Model.Product.Name</h2>
+
+<div class="text-center d-flex justify-content-around">
+    <div class="p-1">
+        <h2 class="border-bottom">Categories</h2>
+        <div class="d-flex flex-column">
+            @foreach (KnownCategory a in Model.Product.CategoriesKnown)
+            {
+                <p>@a.Category.Name</p>
+            }
+        </div>
+    </div>
+    @* Partial used to house the form to add category to a product. *@
+    <div class="p-1">
+        <h2 class="border-bottom">Add Category</h2>
+        @await Html.PartialAsync("_AddCategoryForm", Model)
+    </div>
+</div>

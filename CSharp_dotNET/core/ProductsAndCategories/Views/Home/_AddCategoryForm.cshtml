@@ -1,0 +1,15 @@
+@model MyViewModel
+
+@* Post route taking in an instance of the Association and the ProductID. *@
+@* When id is needed in post route, include it as a parameter using the controller and the instance of the association *@
+@* Categories not chosen was created in MyViewModel as a list *@
+
+<form asp-action="AddCategory" asp-controller="Home" asp-route-ProductId="@Model.Known.ProductId" method="post">
+    <select asp-for="@Model.Known.CategoryId" name="CategoryId" class="form-select">
+        @foreach (Category c in Model.CategoryNotChosen)
+        {
+            <option value="@c.CategoryId">@c.Name</option>
+        }
+    </select>
+    <input type="submit" value="Add" class="btn btn-sm btn-info mt-2">
+</form>

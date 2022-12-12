@@ -1,0 +1,22 @@
+@model Product
+
+@* form partial brought into "Index" using the Product model to bring in necessary fields for the form*@
+@* Ensure to always include the Action route and the method post *@
+<form asp-action="CreateProduct" asp-controller="Home" method="post">
+    <div class="mb-3 d-flex align-items-center justify-content-center">
+        <label asp-for="Name">Name:</label> &nbsp; &nbsp;
+        <input asp-for="Name" class="form-control"> <br>
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3 d-flex align-items-center justify-content-center">
+        <label asp-for="Description">Description:</label>&nbsp; &nbsp;
+        <textarea asp-for="Description" cols="15" rows="1"></textarea> <br>
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+    <div class="mb-3 d-flex align-items-center justify-content-center">
+        <label asp-for="Price">Price:</label> &nbsp; &nbsp;
+        <input asp-for="Price" class="form-control"> <br>
+        <span class="text-danger" asp-validation-for="Price"></span>
+    </div>
+    <input type="submit" value="Create" class="btn btn-sm btn-info">
+</form>

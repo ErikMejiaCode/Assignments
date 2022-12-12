@@ -1,0 +1,14 @@
+@model Category
+
+
+@* form partial brought into "Categories" using the Category model to bring in necessary fields for the form*@
+@* Ensure to always include the Action route and the method post *@
+@* Check Validations *@
+<form asp-action="CreateCategory" asp-controller="Home" method="post">
+    <div class="mb-3 d-flex align-items-center justify-content-center">
+        <label asp-for="Name">Name:</label> &nbsp; &nbsp;
+        <input asp-for="Name" class="form-control"> <br>
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <input type="submit" value="Create" class="btn btn-sm btn-info">
+</form>

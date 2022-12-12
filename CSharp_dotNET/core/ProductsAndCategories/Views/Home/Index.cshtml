@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Product Page";
+}
+
+@model MyViewModel
+
+@* Two partials being used. One to handle the Add Product form and the other to render all the Products. *@
+@* My View Model houses both Product and a list for All Products. *@
+@* My Model with the list of products was also passed through the controller. *@
+<div class="text-center d-flex justify-content-around">
+    <div class="p-1">
+        <h2 class="border-bottom">New Product</h2>
+        @await Html.PartialAsync("_AddProduct", Model.Product)
+    </div>
+    <div class="p-1">
+        @await Html.PartialAsync("_AllProducts", Model.AllProducts)
+    </div>
+
+</div>
