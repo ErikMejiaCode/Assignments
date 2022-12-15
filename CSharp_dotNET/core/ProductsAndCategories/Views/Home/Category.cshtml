@@ -8,11 +8,11 @@
 @* My View Model houses both Category and a list for All Categorys. *@
 @* My Model with the list of products was also passed through the controller. *@
 <div class="text-center d-flex justify-content-around">
-    <div class="p-1">
+    <div class="p-3 border shadow">
         <h2 class="border-bottom">New Category</h2>
         @await Html.PartialAsync("_AddCategory", Model.Category)
     </div>
-    <div class="p-1">
+    <div class="p-3 border shadow">
         <h2 class="border-bottom">All Categories</h2>
         <div>
             @await Html.PartialAsync("_AllCategories", Model.AllCategory)

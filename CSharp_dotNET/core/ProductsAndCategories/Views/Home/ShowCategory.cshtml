@@ -12,7 +12,7 @@ options as they are being chosen. *@
 <h2 class="text-center">@Model.Category.Name</h2>
 
 <div class="text-center d-flex justify-content-around">
-    <div class="p-1">
+    <div class="p-3 border shadow">
         <h2 class="border-bottom">Products</h2>
         <div class="d-flex flex-column">
             @foreach (KnownCategory a in Model.Category.ProductsWithCategory)
@@ -21,7 +21,7 @@ options as they are being chosen. *@
             }
         </div>
     </div>
-    <div class="p-1">
+    <div class="p-3 border shadow">
         @* Partial used to house the form to add category to a product. *@
         <h2 class="border-bottom">Add Product</h2>
         @await Html.PartialAsync("_AddProductForm", Model)
