@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+    
+}
+
+
+<div class="text-center d-flex justify-content-around mt-4">
+    <div>
+        <h2 class="border-bottom">Register</h2>
+        @await Html.PartialAsync("_Register")
+    </div>
+    <div>
+        <h2 class="border-bottom">Login</h2>
+        @await Html.PartialAsync("_Login")
+    </div>
+</div>

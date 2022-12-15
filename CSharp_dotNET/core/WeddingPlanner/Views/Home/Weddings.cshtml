@@ -1,0 +1,75 @@
+@model MyViewModel
+
+<div class="d-flex justify-content-around align-items-center border-bottom">
+    <div>
+        <h4 class="pt-2">Welcome, @Context.Session.GetString("Username")!</h4>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="weddings" class="pt-2 text-info">Home |&nbsp;&nbsp;&nbsp;</a>
+        <a href="weddings/new" class="pt-2 text-info">Plan a Wedding |</a>
+        <form asp-action="Logout" asp-controller="Home" method="post">
+            <input type="submit" value="Logout" class="btn btn-link text-danger">
+        </form>
+    </div>
+</div>
+
+
+<table class="table table-striped border shadow mt-3">
+    <thead>
+        <tr>
+            <th>Wedding of</th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Wedding item in Model.AllWeddings)
+        {
+            <tr>
+                <td><a href="/weddings/@item.WeddingId">@item.WedderOne & @item.WedderTwo</a></td>
+                <td>@item.DateOfWedding.ToShortDateString()</td>
+                <td>@item.Listings.Count()</td>
+                @{
+                    if (item.UserId == Context.Session.GetInt32("UserId"))
+                    {
+                        <td>
+                            <form asp-action="DestroyWedding" asp-controller="Home" method="post"
+                            asp-route-WeddingId="@item.WeddingId">
+                                <input type="submit" value="Delete" class="btn btn-danger btn-sm">
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        bool rsvp = false;
+                        foreach (Association association in item.Listings)
+                        {
+                            if (association.UserId == Context.Session.GetInt32("UserId"))
+                            {
+                                rsvp = true;
+                            }
+
+                        }
+                        if (!rsvp)
+                        {
+                            <td>
+                                <form asp-action="RSVP" asp-controller="Home" method="post" asp-route-WeddingId="@item.WeddingId">
+                                    <input type="submit" value="Rsvp" class="btn btn-primary btn-sm">
+                                </form>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <form asp-action="UnRSVP" asp-controller="Home" method="post" asp-route-WeddingId="@item.WeddingId">
+                                    <input type="submit" value="UnRsvp" class="btn btn-primary btn-sm">
+                                </form>
+                            </td>
+                        }
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>
